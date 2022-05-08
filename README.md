@@ -1,2 +1,3 @@
-# Writeups
-CTF Repo Writeups
+# CTF Writeups
+
+REPO contains write ups for CTF attended.
