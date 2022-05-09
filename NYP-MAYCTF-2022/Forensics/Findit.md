@@ -3,6 +3,8 @@
 ### Challenge
 Oh no! You forgot where the survivor base is. Fortunately, you saved the message in an image. But now you can’t remember the passphrase…
 
+> File: [nyp_info_steg.jpg](files/nyp_info_steg.jpg)
+
 ***
 
 **Solution**
@@ -34,4 +36,4 @@ NYP{Steg0hiD@rsuS}
 ```
 Ayyyyyy-
 
-Flag: **NYP{Steg0hiD@rsuS}**
+> Flag: **NYP{Steg0hiD@rsuS}**

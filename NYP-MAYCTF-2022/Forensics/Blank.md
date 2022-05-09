@@ -4,6 +4,8 @@
 To facilitate the vaccine distribution process, you save everyone’s details in a file. Today, you noticed the file is blank. Does it mean everybody is vaccinated? Or something is wrong with the blank file?
 
 Note: Please dont email anyone for this challenge, it is not in scope
+
+> File: [blank.jpg](files/blank.jpg)
 ***
 
 **Solution**
@@ -110,4 +112,4 @@ index 94d17b8..0000000
 
 Found the flag! Looks like it was in the only commit.
 
-Flag: **NYP{h3y_g!t_15_fUn}**
+> Flag: **NYP{h3y_g!t_15_fUn}**

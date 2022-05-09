@@ -2,6 +2,9 @@
 
 ### Challenge
 "Are there any more survivors who are not vaccinated yet? You look at this image and hope to find some clues…"
+
+> File: [challenge.jpg](files/challenge.jpg)
+
 ***
 
 **Solution**
@@ -39,4 +42,4 @@ With the "=" at the back, I suspected that it was base64 encoded.
 ```bash
 # echo "TllQe3NpbXBsMy1zdDNnby05NDcxM30=" | base64 --decode
 ```
-Flag: **NYP{simpl3-st3go-94713}** 
+> Flag: **NYP{simpl3-st3go-94713}** 
