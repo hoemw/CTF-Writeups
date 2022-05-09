@@ -118,8 +118,6 @@ On closer inspection, it looks like the ".txt" file is a pdf file.
 
 The flag is behind another password in the pdf file.
 
-I realised that the password pattern is based on the anime character Killua Zoldyck from hunterxhunter.
+I realised that the password pattern is based on the anime character Killua Zoldyck from hunterxhunter. So I typed in "Killua" as the password and got the flag.
 
-So I typed in "Killua" as the password and got the flag:
-
-**NYP{M4g1c_byt35_4rE_fUn}**
+Flag: **NYP{M4g1c_byt35_4rE_fUn}**
