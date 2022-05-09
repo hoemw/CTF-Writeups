@@ -32,12 +32,13 @@ Entering the link above into the url gave me this:
 We are given an email and some expiry date. Lets try emailing the email given.
 
 ![alt image](img/email.png)
+
 it works! The bot replied us with an email with some info.
 
 <br>
 
-
 ![alt image](img/email2.png)
+
 Upon closer inspection, it looks like the flag was in plain sight all along.
 
 >Flag: **NYP{s3curiTy_d0t_tXT}**
