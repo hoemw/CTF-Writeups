@@ -69,11 +69,13 @@ I used a tool called HexEd.it, it makes editing hex values in a file a breeze.
 <br>
 
 ![alt image](img/Hexedit1.png)
+
 Identifying the end of the jpg file
 
 <br>
 
 ![alt image](img/Hexedit2.png)
+
 Removed jpg component and fixed PK header
 
 
