@@ -2,6 +2,8 @@
 
 ### Challenge
 "Anime for life! Arigato!" One of the kids shouts when you are distributing the zombie virus vaccine. Think monkey. Good luck :D"
+
+> File: [anime.jpg](files/anime.jpg)
 ***
 
 **Solution**
@@ -64,6 +66,17 @@ On closer inspection, the file signature of ZIP seems to be wrong, it being only
 
 I used a tool called HexEd.it, it makes editing hex values in a file a breeze.
 
+<br>
+
+![alt image](img/Hexedit1.png)
+Identifying the end of the jpg file
+
+<br>
+
+![alt image](img/Hexedit2.png)
+Removed jpg component and fixed PK header
+
+
 ```
 # xxd anime.zip | head
 00000000: 504b 0304 1400 0900 0800 7331 9854 3aed  PK........s1.T:.
@@ -97,14 +110,13 @@ Godspeed         (anime.zip/flag.txt)
 Use the "--show" option to display all of the cracked passwords reliably
 Session completed.
 ```
-
+The password is "Godspeed" <span style = "font-size: 7px; color: grey;">*(omg Godspeed Killua?!)*</font-size>
 ```
 # unzip anime.zip
 Archive:  anime.zip
 [anime.zip] flag.txt password: 
   inflating: flag.txt
 ```
-We are almost there.
 
 ```
 # file flag.txt 
@@ -120,4 +132,6 @@ The flag is behind another password in the pdf file.
 
 I realised that the password pattern is based on the anime character Killua Zoldyck from hunterxhunter. So I typed in "Killua" as the password and got the flag.
 
-Flag: **NYP{M4g1c_byt35_4rE_fUn}**
+<span style = "font-size: 12px; color: grey;">*I could also use john for this, but I figured out the password anyways*</font-size>
+
+> Flag: **NYP{M4g1c_byt35_4rE_fUn}**
