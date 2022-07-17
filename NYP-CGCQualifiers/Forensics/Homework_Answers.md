@@ -93,7 +93,7 @@ Clicking on the link [Don't do this at home kids], I was brought to a page which
 
 <Br>
 
-![alt_image](/img/realflag.png)
+![alt_image](../img/realflag.png)
 
 <br>
 <br>

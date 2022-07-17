@@ -29,7 +29,7 @@ I'm using AccessData FTK imager for reference.
 <br>
 <br>
 
-![alt-image](/img/evidenceerror.png)
+![alt-image](../img/evidenceerror.png)
 An error popped up when I was adding the ad1 file into the software: `Image detection failed`.
 
 
@@ -37,7 +37,7 @@ It probably wasn't going to be this easy. I'm guessing either the file is corrup
 
 <br>
 
-![alt-image](/img/brokenheader.png)
+![alt-image](../img/brokenheader.png)
 Analysing the file with a binary file editor, we can see that the header is all messed up.
 
 <br>
@@ -48,18 +48,18 @@ For reference, this is what a normal .ad1 file header should be:
 <br>
 <br>
 
-![alt-image](/img/fixedheader.png)
+![alt-image](../img/fixedheader.png)
 Using the hex editor (In this case I'm using hexedit), I fixed the file header.
 
 <br>
 
-![image](/img/ftkimager1.png)
+![image](../img/ftkimager1.png)
 Now I am able to open the .ad1 file and view the content. The flag.txt was a bait, and the actual flag is hidden in the jpg file.
 
 <br>
 <br>
 
-![flag](/img/flag.jpg)
+![flag](../img/flag.jpg)
 There she is!
 
 
